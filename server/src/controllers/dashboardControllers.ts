@@ -1,0 +1,63 @@
+import type { Request, Response } from "express";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
+
+export const getDashboardMetrics = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const popularProductsRaw = await prisma.products.findMany({
+      take: 15,
+      orderBy: {
+        stockQuantity: "desc",
+      },
+    });
+
+    // 为产品添加图片URL（临时解决方案）
+    const popularProducts = popularProductsRaw.map((product, index) => ({
+      ...product,
+      imageUrl: `/assets/product${(index % 17) + 1}.jpg` // 循环使用可用的图片
+    }));
+    const salesSummary = await prisma.salesSummary.findMany({
+      take: 5,
+      orderBy: {
+        date: "desc",
+      },
+    });
+    const purchaseSummary = await prisma.purchaseSummary.findMany({
+      take: 5,
+      orderBy: {
+        date: "desc",
+      },
+    });
+    const expenseSummary = await prisma.expenseSummary.findMany({
+      take: 5,
+      orderBy: {
+        date: "desc",
+      },
+    });
+    const expenseByCategorySummaryRaw =
+      await prisma.expenseByCategory.findMany({
+        take: 5,
+        orderBy: {
+          date: "desc",
+        },
+      });
+    const expenseByCategorySummary = expenseByCategorySummaryRaw.map((item: any) => ({
+      ...item,
+      amount: item.amount.toString(),
+    }));
+    res.json({
+      popularProducts,
+      salesSummary,
+      purchaseSummary,
+      expenseSummary,
+      expenseByCategorySummary,
+    });
+  } catch (error) {
+    console.error("Error fetching dashboard metrics:", error);
+    res.status(500).json({ error: "Error retrieving dashboard metrics" });
+  }
+};
