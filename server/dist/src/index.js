@@ -32,9 +32,14 @@ app.use("/dashboard", dashboardRoutes_1.default); //http://localhost:8000/dashbo
 app.use("/products", productRoutes_1.default); //http://localhost:8000/product
 app.use("/users", userRoutes_1.default); //http://localhost:8000/users
 app.use("/expense", expenseRoutes_1.default); //http://localhost:8000/expense
-// app.get("/hello", (req, res) => {
-//   res.send("Hello World");
-// });
+/* HEALTH CHECK */
+app.get("/health", (req, res) => {
+    res.status(200).json({
+        status: "ok",
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime()
+    });
+});
 /* SERVER */
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`Server running on Port: ${PORT}`));

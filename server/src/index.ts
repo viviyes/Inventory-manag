@@ -30,11 +30,15 @@ app.use("/dashboard", dashboardRoutes); //http://localhost:8000/dashboard
 app.use("/products", productRoutes); //http://localhost:8000/product
 app.use("/users", userRoutes); //http://localhost:8000/users
 app.use("/expense", expenseRoutes); //http://localhost:8000/expense
-// app.get("/hello", (req, res) => {
-//   res.send("Hello World");
-// });
 
-
+/* HEALTH CHECK */
+app.get("/health", (req, res) => {
+  res.status(200).json({ 
+    status: "ok", 
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
+  });
+});
 
 /* SERVER */
 const PORT = process.env.PORT || 3001;
