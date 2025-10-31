@@ -8,18 +8,12 @@ export const getDashboardMetrics = async (
   res: Response
 ): Promise<void> => {
   try {
-    const popularProductsRaw = await prisma.products.findMany({
+    const popularProducts = await prisma.products.findMany({
       take: 15,
       orderBy: {
         stockQuantity: "desc",
       },
     });
-
-    // 为产品添加图片URL（临时解决方案）
-    const popularProducts = popularProductsRaw.map((product, index) => ({
-      ...product,
-      imageUrl: `/assets/product${(index % 17) + 1}.jpg` // 循环使用可用的图片
-    }));
     const salesSummary = await prisma.salesSummary.findMany({
       take: 5,
       orderBy: {

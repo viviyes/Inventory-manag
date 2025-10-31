@@ -20,10 +20,22 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cors());
+const allowedOrigins = (process.env.CLIENT_URL || "http://localhost:3000")
+  .split(",")
+  .map((origin) => origin.trim());
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(new Error("Not allowed by CORS"));
+    },
+    credentials: true,
+    optionsSuccessStatus: 200,
+  })
+);
 
-/* STATIC FILES */
-app.use("/assets", express.static(path.join(__dirname, "../assets")));
 
 /* ROUTES */
 app.use("/dashboard", dashboardRoutes); //http://localhost:8000/dashboard

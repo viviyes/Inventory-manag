@@ -5,7 +5,7 @@
     "price": 456.04,
     "rating": 2.25,
     "stockQuantity": 124834,
-    "imageUrl": "/assets/product1.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product1.jpg"
   },
   {
     "productId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
@@ -13,7 +13,7 @@
     "price": 899.05,
     "rating": 3.56,
     "stockQuantity": 799402,
-    "imageUrl": "/assets/product2.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product2.jpg"
   },
   {
     "productId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
@@ -21,7 +21,7 @@
     "price": 264.37,
     "rating": 3.23,
     "stockQuantity": 842192,
-    "imageUrl": "/assets/product3.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product3.jpg"
   },
   {
     "productId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
@@ -29,7 +29,7 @@
     "price": 555.93,
     "rating": 4.09,
     "stockQuantity": 236333,
-    "imageUrl": "/assets/product4.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product4.jpg"
   },
   {
     "productId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
@@ -37,7 +37,7 @@
     "price": 82.62,
     "rating": 4.8,
     "stockQuantity": 601208,
-    "imageUrl": "/assets/product5.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product5.jpg"
   },
   {
     "productId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
@@ -45,7 +45,7 @@
     "price": 435.44,
     "rating": 0.27,
     "stockQuantity": 124068,
-    "imageUrl": "/assets/product6.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product6.jpg"
   },
   {
     "productId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
@@ -53,7 +53,7 @@
     "price": 759.15,
     "rating": 2.46,
     "stockQuantity": 234525,
-    "imageUrl": "/assets/product7.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product7.jpg"
   },
   {
     "productId": "98255f4e-40a6-470f-89a5-0792729f8947",
@@ -61,7 +61,7 @@
     "price": 974.99,
     "rating": 4.82,
     "stockQuantity": 739009,
-    "imageUrl": "/assets/product8.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product8.jpg"
   },
   {
     "productId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
@@ -69,7 +69,7 @@
     "price": 639.9,
     "rating": 1.17,
     "stockQuantity": 754285,
-    "imageUrl": "/assets/product9.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product9.jpg"
   },
   {
     "productId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
@@ -77,7 +77,7 @@
     "price": 62.95,
     "rating": 4.6,
     "stockQuantity": 205240,
-    "imageUrl": "/assets/product10.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product10.jpg"
   },
   {
     "productId": "be2157fb-7454-405e-9511-bf7ba81b7726",
@@ -85,7 +85,7 @@
     "price": 699.0,
     "rating": 1.65,
     "stockQuantity": 399124,
-    "imageUrl": "/assets/product11.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product11.jpg"
   },
   {
     "productId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
@@ -93,7 +93,7 @@
     "price": 899.61,
     "rating": 2.39,
     "stockQuantity": 196884,
-    "imageUrl": "/assets/product12.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product12.jpg"
   },
   {
     "productId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
@@ -101,7 +101,7 @@
     "price": 575.6,
     "rating": 4.38,
     "stockQuantity": 673658,
-    "imageUrl": "/assets/product13.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product13.jpg"
   },
   {
     "productId": "daa29167-82a7-474b-9687-b8b903e7ec69",
@@ -109,7 +109,7 @@
     "price": 492.35,
     "rating": 1.07,
     "stockQuantity": 205143,
-    "imageUrl": "/assets/product14.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product14.jpg"
   },
   {
     "productId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
@@ -117,7 +117,7 @@
     "price": 304.69,
     "rating": 2.62,
     "stockQuantity": 388596,
-    "imageUrl": "/assets/product15.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product15.jpg"
   },
   {
     "productId": "1936d406-e89e-40e4-bff7-1827532269d4",
@@ -125,7 +125,7 @@
     "price": 845.15,
     "rating": 2.21,
     "stockQuantity": 631658,
-      "imageUrl": "/assets/product16.jpg"
+      "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product16.jpg"
   },
   {
     "productId": "c849a535-5f8b-47e3-889c-015693a644ac",
@@ -133,7 +133,7 @@
     "price": 880.09,
     "rating": 1.49,
     "stockQuantity": 65457,
-    "imageUrl": "/assets/product17.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product17.jpg"
   },
   {
     "productId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
@@ -141,7 +141,7 @@
     "price": 51.66,
     "rating": 1.53,
     "stockQuantity": 263383,
-    "imageUrl": "/assets/product18.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product18.jpg"
   },
   {
     "productId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
@@ -149,7 +149,7 @@
     "price": 746.88,
     "rating": 4.71,
     "stockQuantity": 616812,
-    "imageUrl": "/assets/product19.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product19.jpg"
   },
   {
     "productId": "8d15de86-0e4a-4414-9166-7a33610202d3",
@@ -157,7 +157,7 @@
     "price": 17.1,
     "rating": 0.79,
     "stockQuantity": 604774,
-    "imageUrl": "/assets/product20.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product20.jpg"
   },
   {
     "productId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
@@ -165,7 +165,7 @@
     "price": 905.04,
     "rating": 3.71,
     "stockQuantity": 909107,
-    "imageUrl": "/assets/product21.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product21.jpg"
   },
   {
     "productId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
@@ -173,7 +173,7 @@
     "price": 184.41,
     "rating": 1.98,
     "stockQuantity": 953695,
-    "imageUrl": "/assets/product22.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product22.jpg"
   },
   {
     "productId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
@@ -181,7 +181,7 @@
     "price": 163.6,
     "rating": 0.81,
     "stockQuantity": 341530,
-    "imageUrl": "/assets/product23.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product23.jpg"
   },
   {
     "productId": "000a8c23-5bca-436c-a216-4e747a94c511",
@@ -189,7 +189,7 @@
     "price": 196.27,
     "rating": 1.6,
     "stockQuantity": 967173,
-    "imageUrl": "/assets/product24.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product24.jpg"
   },
   {
     "productId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
@@ -197,7 +197,7 @@
     "price": 602.37,
     "rating": 0.13,
     "stockQuantity": 162208,
-    "imageUrl": "/assets/product25.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product25.jpg"
   },
   {
     "productId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
@@ -205,7 +205,7 @@
     "price": 564.82,
     "rating": 4.74,
     "stockQuantity": 33021,
-    "imageUrl": "/assets/product26.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product26.jpg"
   },
   {
     "productId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
@@ -213,7 +213,7 @@
     "price": 664.2,
     "rating": 0.13,
     "stockQuantity": 363992,
-    "imageUrl": "/assets/product27.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product27.jpg"
   },
   {
     "productId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
@@ -221,7 +221,7 @@
     "price": 685.1,
     "rating": 1.5,
     "stockQuantity": 635092,
-      "imageUrl": "/assets/product28.jpg"
+      "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product28.jpg"
   },
   {
     "productId": "2be5b024-2c96-4f29-912c-c6f36353f799",
@@ -229,7 +229,7 @@
     "price": 373.81,
     "rating": 1.06,
     "stockQuantity": 35383,
-    "imageUrl": "/assets/product29.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product29.jpg"
   },
   {
     "productId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
@@ -237,7 +237,7 @@
     "price": 669.97,
     "rating": 1.34,
     "stockQuantity": 880242,
-    "imageUrl": "/assets/product30.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product30.jpg"
   },
   {
     "productId": "fc4c81e5-f1ac-40f5-8c6f-da3fbad5599d",
@@ -245,7 +245,7 @@
     "price": 100.11,
     "rating": 0.49,
     "stockQuantity": 896782,
-    "imageUrl": "/assets/product31.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product31.jpg"
   },
   {
     "productId": "07238d8e-0037-4972-87ca-0df206ee3e42",
@@ -253,7 +253,7 @@
     "price": 22.99,
     "rating": 3.42,
     "stockQuantity": 635344,
-    "imageUrl": "/assets/product32.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product32.jpg"
   },
   {
     "productId": "154b7860-23a2-4564-ad99-1745ab7122ef",
@@ -261,7 +261,7 @@
     "price": 45.45,
     "rating": 0.34,
     "stockQuantity": 456487,
-    "imageUrl": "/assets/product33.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product33.jpg"
   },
   {
     "productId": "8d4bf814-65d4-4df4-84cc-68911d925fdf",
@@ -269,7 +269,7 @@
     "price": 847.6,
     "rating": 1.79,
     "stockQuantity": 638956,
-    "imageUrl": "/assets/product34.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product34.jpg"
   },
   {
     "productId": "a52bf1bd-3d35-4cd2-849a-354e3952e2d2",
@@ -277,6 +277,6 @@
     "price": 969.47,
     "rating": 3.66,
     "stockQuantity": 248630,
-    "imageUrl": "/assets/product35.jpg"
+    "imageUrl": "https://stockmngt-img.s3.ap-southeast-2.amazonaws.com/product35.jpg"
   }
 ]

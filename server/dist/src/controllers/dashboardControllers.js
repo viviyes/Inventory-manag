@@ -14,15 +14,12 @@ const client_1 = require("@prisma/client");
 const prisma = new client_1.PrismaClient();
 const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const popularProductsRaw = yield prisma.products.findMany({
+        const popularProducts = yield prisma.products.findMany({
             take: 15,
             orderBy: {
                 stockQuantity: "desc",
             },
         });
-        // 为产品添加图片URL（临时解决方案）
-        const popularProducts = popularProductsRaw.map((product, index) => (Object.assign(Object.assign({}, product), { imageUrl: `/assets/product${(index % 17) + 1}.jpg` // 循环使用可用的图片
-         })));
         const salesSummary = yield prisma.salesSummary.findMany({
             take: 5,
             orderBy: {

@@ -1,12 +1,10 @@
 services:
   server:
-    build:
-      context: ./server
-      dockerfile: Dockerfile
-    container_name: management_server
+    image: ghcr.io/<OWNER>/<REPO>-backend:latest
+    container_name: stockmngt-backend
     restart: unless-stopped
     env_file:
-      - ./server/.env   # 含 DATABASE_URL 与 DIRECT_URL（直连用于 migrate）
+      - .env   # 含 DATABASE_URL 与 DIRECT_URL（直连用于 migrate）
     environment:
       NODE_ENV: production
       PORT: 8000
